@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2D92BF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#323232"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#6BA4D3"
+            android:id="@+id/tvUsername" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="22dp"
+            android:layout_gravity="center"
+            android:textColor="#BC3127"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#6BA4D3"
+            android:id="@+id/tvHighestScore" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#4C2098"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#6BA4D3"
+            android:id="@+id/tvWins" />
+
+    </LinearLayout>
+
+</LinearLayout>

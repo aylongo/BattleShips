@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:minWidth="350dp"
+    android:minHeight="400dp"
+    android:layout_gravity="center"
+    android:background="@drawable/scroll_paper"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Paused"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorMenu"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music Volume"
+        android:textSize="18dp"
+        android:textColor="@color/colorMenu"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <SeekBar
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:thumb="@drawable/seekbar_thumb"
+        android:progressBackgroundTint="#000000"
+        android:progressTint="#009688"
+        android:id="@+id/sbMusicVolume"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="Return to Main Menu"
+        android:textSize="20dp"
+        android:id="@+id/btnReturnToMain"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/colorMenu"
+        android:textStyle="bold"
+        android:background="@drawable/dialog_menu_button"/>
+
+</LinearLayout>

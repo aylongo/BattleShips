@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:minWidth="400dp"
+    android:minHeight="480dp"
+    android:layout_gravity="center"
+    android:background="@drawable/scroll_paper"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorMenu"
+        android:id="@+id/tvGameOver"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:id="@+id/tvTurns"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorMenu" />
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="Rematch"
+        android:textSize="20dp"
+        android:id="@+id/btnStartBattle"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColorHint="@color/colorMenu"
+        android:textStyle="bold"
+        android:background="@drawable/dialog_menu_button" />
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="Return to Main Menu"
+        android:textSize="20dp"
+        android:id="@+id/btnReturnToMain"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorMenu"
+        android:textStyle="bold"
+        android:background="@drawable/dialog_menu_button" />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#157AC8</color>
+    <color name="colorPrimaryDark">#157AC8</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBackground">#4BB7E8</color>
+    <color name="colorButtonBackground">#157AC8</color>
+    <color name="colorButtonShip">#A2A5A8</color>
+    <color name="colorButtonHit">#E34F4F</color>
+    <color name="colorButtonWrecked">#851919</color>
+    <color name="colorButtonMiss">#6DBCDF</color>
+    <color name="colorLeaderboardUserItem">#216888</color>
+    <color name="colorMainButtons">#2285DC</color>
+    <color name="colorMenu">#492E07</color>
+</resources>
